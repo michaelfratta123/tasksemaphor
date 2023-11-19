@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginRegister Component Snapshot should match the snapshot 1`] = `
+<div>
+  <div
+    className="m-auto text-light card bg-dark border-light"
+    style={
+      {
+        "width": "20rem",
+      }
+    }
+  >
+    <div
+      className="card-body"
+    >
+      <div
+        className="mb-4 mt-2 card-title h5"
+      >
+        Login or Register
+      </div>
+      <form
+        className=""
+      >
+        <div
+          className="mb-3 mx-4"
+        >
+          <input
+            className="form-control"
+            id="formBasicUsername"
+            name="username"
+            onChange={[Function]}
+            placeholder="Username"
+            required={true}
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          className="mb-3 mx-4"
+        >
+          <input
+            className="form-control"
+            id="formBasicPassword"
+            name="password"
+            onChange={[Function]}
+            placeholder="Password"
+            required={true}
+            type="password"
+            value=""
+          />
+        </div>
+        <button
+          className="m-3 btn btn-secondary"
+          disabled={false}
+          onClick={[Function]}
+          type="button"
+        >
+          Login
+        </button>
+        <button
+          className="btn btn-secondary"
+          disabled={false}
+          onClick={[Function]}
+          type="button"
+        >
+          Register
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+`;
