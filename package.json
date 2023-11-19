@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "concurrently \"npm run server\" \"npm run dev\"",
-    "server": "node backend/server/index.js",
+    "server": "node api/server/index.js",
     "dev": "next dev",
     "test": "jest --detectOpenHandles"
   },
