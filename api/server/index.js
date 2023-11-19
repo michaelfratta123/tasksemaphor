@@ -16,6 +16,11 @@ connectDB();
 
 app.use(express.json());
 app.use(cors());
+app.use(
+  cors({
+    origin: "https://tasksemaphor.vercel.app",
+  })
+);
 app.use(helmet());
 
 // Middleware to check JWT token

@@ -18,7 +18,7 @@ const Home = () => {
   // the userId is is an empty string if userData is not already present
   const userId = userData ? userData.userId : "";
 
-  const PREFIX = "https://tasksemaphor.vercel.app/api";
+  const PREFIX = process.env.NEXT_PUBLIC_APP_API_URL;
 
   // define a function to fetch tasks
   const fetchTasks = async () => {
