@@ -15,7 +15,7 @@ const app = express();
 connectDB();
 
 const corsOptions = {
-  origin: "https://tasksemaphor.vercel.app",
+  origin: "*",
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
   credentials: true,
   optionsSuccessStatus: 204,
