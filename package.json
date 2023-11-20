@@ -5,11 +5,10 @@
   "main": "index.js",
   "scripts": {
     "start": "concurrently \"npm run server\" \"npm run dev\"",
-    "server": "node backend/server/server.js",
+    "server": "node backend/server/index.js",
     "dev": "next dev",
     "build": "next start",
-    "test": "jest --detectOpenHandles",
-    "vercel-build": "echo hello"
+    "test": "jest --detectOpenHandles"
   },
   "author": "",
   "license": "ISC",

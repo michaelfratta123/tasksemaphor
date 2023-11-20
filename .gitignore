@@ -1,4 +1,15 @@
+# Ignore node_modules directory
 node_modules
-.env
-build
+
+# Ignore .next directory
 .next
+
+# Ignore any built files or build directories
+build
+
+# Ignore any environment files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env
